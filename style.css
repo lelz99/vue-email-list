@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(#e4d8ed 45%,#f8efed);
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box-emails{
+    list-style: none;
+    padding: 20px 50px;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-image: linear-gradient(#f8efed , #e4d8ed);
+}
